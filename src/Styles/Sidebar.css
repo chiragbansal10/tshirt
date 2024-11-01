@@ -1,0 +1,15 @@
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background: #f7f7f7;
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+  }
+  
+  .sidebar label {
+    display: block;
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,56 @@
+.app {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.header {
+  background: #f0f0f0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.search-bar {
+  display: flex;
+  margin: 20px 0;
+}
+
+.search-bar input {
+  width: 200px;
+  padding: 5px;
+}
+
+.search-bar button {
+  padding: 5px;
+}
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item, .cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+
+.cart {
+  margin-top: 20px;
+}

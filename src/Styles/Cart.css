@@ -1,0 +1,97 @@
+.app {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .header {
+    background: #f0f0f0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .cart-count {
+    background: #333;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 50%;
+  }
+  .cart-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-container h2 {
+    margin-top: 0;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .cart-item-image {
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    border-radius: 4px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-item-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart-item-actions select {
+    padding: 5px;
+  }
+  
+  .cart-item-actions button {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cart-item-actions button:hover {
+    background: #c9302c;
+  }
+  
+  .cart-total {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .cart-total h3 {
+    font-weight: normal;
+  }
+  
+  .cart-total span {
+    font-weight: bold;
+  }
+    
